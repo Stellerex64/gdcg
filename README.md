@@ -28,3 +28,4 @@ npm run dev
 - Swap the demo client UI with your React/Tailwind wireframe.
 - Port the rule logic (commit timing, action timing, decks) into server events.
 - Add rooms/room IDs to support multiple concurrent matches.
+"# gdcg" 
