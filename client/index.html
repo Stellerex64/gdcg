@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GDCG Client</title>
+    <style>
+      body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#0a0a0a; color:#e5e5e5; margin:0; }
+      .wrap { max-width: 900px; margin: 0 auto; padding: 16px; }
+      .card { border:1px solid #303030; background:#111; border-radius:16px; padding:12px; margin:8px 0; }
+      .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+      button { background:#111; border:1px solid #3a3a3a; color:#e5e5e5; padding:8px 12px; border-radius:12px; cursor:pointer; }
+      button[disabled] { opacity:0.5; cursor:not-allowed; }
+      input, select { background:#0f0f0f; color:#e5e5e5; border:1px solid #3a3a3a; border-radius:8px; padding:6px 8px; }
+      .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:8px; }
+      .muted { color:#a3a3a3; font-size:12px; }
+      .pill { display:inline-block; padding:4px 8px; border:1px solid #3a3a3a; border-radius:999px; margin:2px; }
+      .danger { color:#fca5a5; }
+      .ok { color:#86efac; }
+      .warn { color:#fde68a; }
+      .header { display:flex; justify-content:space-between; border-bottom:1px solid #262626; padding-bottom:8px; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
